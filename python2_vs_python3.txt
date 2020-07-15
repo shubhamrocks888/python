@@ -1,0 +1,56 @@
+1.  Python 2 is legacy, Python 3 is the future:
+    Since Python 2 has been the most popular version for over a decade and a half,
+    it is still entrenched in the software at certain companies.
+
+    However, since more companies are moving from Python 2 to 3, someone who wants to
+    learn Python programming for beginners may wish to avoid spending time on a version that is becoming obsolete.
+
+2.  Python 2 and Python 3 have different (sometimes incompatible) libraries:
+    Since Python 3 is the future, many of today's developers are creating libraries strictly for use with Python 3.
+    Similarly, many older libraries built for Python 2 are not forwards-compatible.
+    You may be able to port a 2.x library to 3.x., but this can be difficult and complicated;
+    it's definitely not a “Python for beginners” type of activity.
+
+3.  There is better Unicode support in Python 3:
+    In Python 3, text strings are Unicode by default. In Python 2, strings are stored as ASCII by default–you have to
+    add a “u” if you want to store strings as Unicode in Python 2.x.
+
+    This is important because Unicode is more versatile than ASCII.
+    Unicode strings can store foreign language letters, Roman letters
+    and numerals, symbols, emojis, etc., offering you more choices.
+    
+4.  Python 3 has improved integer division:
+    In Python 2, if you write a number without any digits after the decimal point, it rounds your calculation down to the nearest whole number.
+    For example, if you’re trying to perform the calculation 5 divided by 2, and you type 5 / 2, the result will be 2 due to rounding.
+    You would have to write it as 5.0 / 2.0 to get the exact answer of 2.5.
+    However, in Python 3, the expression 5 / 2 will return the expected result of 2.5 without having to worry about adding those extra zeroes.
+    This is one example of how Python 3 syntax can be more intuitive, making it easier for newcomers to learn Python programming.
+
+5.  The two versions have different print statement syntaxes:
+    This is only a syntactical difference–and some may consider it trivial–so it doesn’t affect the functionality of Python.
+    That said, it is still a big and visible difference you should know about.
+
+    Essentially, in Python 3, the print statement has been replaced with a print () function.
+
+    For example, in Python 2 it is print “hello” but in Python 3 it is print (“hello”).
+
+    If you're going to learn Python programming for the first time, it shouldn't affect you much. But if you started with Python 2,
+    the change may trip you up a few times.
+
+Instagram
+In 2017, Instagram migrated the majority of their Python code base from Python 2.7 to Python 3.
+
+Why they use it:
+
+Python is not traditionally a typed language, but Python v3.5 supports typing, which removes development conflicts when working new pieces of code.
+Each newer version of Python continues to get faster runtime. Meanwhile, nobody’s currently working to make Python 2.7 work faster.
+Community support is better with Python 3.
+
+Facebook
+Facebook is currently in the process of upgrading their infrastructure and handlers from Python 2 to Python 3.4.
+
+Why they use it:
+
+According to RealPython, “The ease of using Python libraries means that the production engineers don’t have to write or maintain as much code, allowing them to focus on getting improvements live. It also ensures that the infrastructure of Facebook is able to scale efficiently.”
+Watch this talk on YouTube for more information about the changing culture of Python at Facebook.
+    
