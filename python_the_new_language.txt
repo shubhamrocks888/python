@@ -1,0 +1,32 @@
+1.  Reason for increasing popularity:
+
+    1.  Emphasis on code readability, shorter codes, ease of writing
+    2.  Programmers can express logical concepts in fewer lines of code in comparison to languages such as C++ or Java.
+    3.  Python supports multiple programming paradigms, like object-oriented, imperative and functional programming or procedural.
+    4.  There exists inbuilt functions for almost all of the frequently used concepts.
+    5.  Philosophy is “Simplicity is the best”.
+
+2.  LANGUAGE FEATURES;
+
+    1.  Interpreted-->There are no separate compilation and execution steps like C and C++.
+                      Directly run the program from the source code.
+                      Internally, Python converts the source code into an intermediate form called bytecodes
+                      which is then translated into native language of specific computer to run it.
+
+    2.  Platform Independent-->Python can be used on Linux, Windows, Macintosh, Solaris and many more.
+
+    3.  Free and Open Source-->Redistributable. 
+
+    4.  Simple-->Closer to English language;Easy to Learn.  
+
+    5.  Robust-->Exceptional handling features
+                 Memory management techniques in built
+
+    6.  Rich Library Support.
+
+    7.  Pros-->Ease of use.
+               Multi-paradigm Approach.
+
+    8.  Cons-->Slow speed of execution compared to C,C++.
+               Absence from mobile computing and browsers.
+               
