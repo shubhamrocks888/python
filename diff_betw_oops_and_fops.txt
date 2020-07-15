@@ -1,0 +1,57 @@
+1.  	What is the difference between object and function?
+    	A function is a collection of commands and data. This is the same as a method, however a function doesn't need to be part of a obj...
+    	An object is a collection of functions and data. Objects have properties that describe the object as the code tries to
+    	interpret a real world analog into a digital representation.
+
+2.  	Functional Programming and Object-oriented programming both are different concepts of programming language. ..
+    	In functional programming, data cannot be stored in objects and it can only be transformed by creating functions.
+    	In object-oriented programming, data is stored in objects.
+
+3.	Everything Object Oriented Programming can do can be done better in functional programming--
+    	the code is easier to write, runs faster, and uses less memory.
+
+4.	Is a function an object?
+	We see that a function is indeed an object. JavaScript functions are a special type of objects, called function objects. 
+	A function object includes a string which holds the actual code -- the function body -- of the function.
+
+5.	Is python a functional language?
+	What does Python support? Though Python is not primarily a functional language, it is able to support functional programming 
+	relatively easily because everything in Python is an object. That means that function definitions can be assigned to variables 
+	and passed around.
+
+6.	In functional programs, variables and functions are the main elements of the code, while in object-oriented programs, 
+	objects and methods are the key elements.
+
+7.	Object-oriented programming based on the main features that are:
+	
+	1. Abstraction: It helps in letting the useful information or relevant data to a user, 
+			which increases the efficiency of the program and make the things simple.
+	1. Abstraction in OOP. Objects in an OOP language provide an abstraction that hides the internal implementation details.
+	1. Abstraction refers to the concept of hiding the complexities of a system from the users of that system.
+	1. The definition of abstraction is an idea that lacks a concrete nature, or is idealistic in nature. 
+	   Examples of abstractions can be feelings such as sadness or happiness. 
+	   Abstraction is defined as a work of art where the subject or theme is implied.
+	1. Another real life example of Abstraction is ATM Machine; All are performing operations on the ATM machine like 
+	   cash withdrawal, money transfer, retrieve mini-statement…etc. but we can't know internal details about ATM. 
+	   Note: Data abstraction can be used to provide security for the data from the unauthorized methods.
+	1. Abstraction is about hiding unwanted details while giving out most essential details, 
+	   while Encapsulation means hiding the code and data into a single unit e.g. class or method to protect inner working of an object from outside world.
+
+	2. Inheritance: It helps in inheriting the methods, functions, properties, and fields of a base class in the derived class.
+
+	3. Polymorphism: It helps in doing one task in many ways with the help of overloading and overriding which is also known as compile-time 
+			 and run-time polymorphism.
+
+	4. Encapsulation: It helps in hiding the irrelevant data from a user and prevents the user from unauthorized access.
+
+8.	https://www.educba.com/functional-programming-vs-oop/
+
+9.	Functional programming mainly supports abstraction over data and abstraction over behavior. 
+	Object-oriented programming mainly supports abstraction over data only.
+
+10.	Conclusion
+	Functional Programming and Object-oriented programming both are different concepts of programming language. 
+	The aim of both Functional Programming vs OOP languages is to provide the bug-free code, which can be easily 
+	understandable, well-coded, managed and rapid development.
+
+   
