@@ -54,3 +54,9 @@ Why they use it:
 According to RealPython, “The ease of using Python libraries means that the production engineers don’t have to write or maintain as much code, allowing them to focus on getting improvements live. It also ensures that the infrastructure of Facebook is able to scale efficiently.”
 Watch this talk on YouTube for more information about the changing culture of Python at Facebook.
     
+-->ASCII (which stands for American Standard Code for Information Interchange) is a character encoding standard for text files in computers 
+and other devices. ASCII is a subset of Unicode and is made up of 128 symbols in the character set.
+
+-->The main difference between the two is in the way they encode the character and the number of bits that they use for each. 
+   ASCII originally used seven bits to encode each character. ... In contrast, Unicode uses a variable bit encoding program 
+   where you can choose between 32, 16, and 8-bit encodings
