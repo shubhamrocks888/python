@@ -1,0 +1,74 @@
+print (False)               -----> False 
+print (True)                -----> True
+
+print (True + True + True)  -----> 3
+print (True + False + False)-----> 1
+
+2. None :   This is a special constant used to denote a null value or a void. Its important to remember, 0,
+            any empty container(e.g empty list) do not compute to None.
+            It is an object of its datatype – NoneType. It is not possible to create multiple None objects and can assign them to variables.
+
+3. and :    This a logical operator in python. “and” Return the first false value .if not found return last.
+            print(3 and 0) returns 0
+            print (3 and 10) returns 10
+
+4. or  :    This a logical operator in python. “or” Return the first True value.if not found return last.
+            print(3 or 0) returns 3
+            print(3 or 10) returns 3
+            print(0 or 0 or 3 or 10 or 0) returns 3
+
+5.  print (None == 0) returns False
+
+6.  x=None
+    y=None
+    print (x=y) returns False
+ 
+7. assert : The assert keyword is used when debugging code.
+            The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an AssertionError.
+
+            x = "hello"
+
+            #if condition returns True, then nothing happens:
+            assert x == "hello"
+
+            #if condition returns False, AssertionError is raised:
+            assert x == "goodbye"
+
+            ex: assert 5 < 3, "5 is not smaller than 3" returns AssertionError is raised
+                assert 5 > 3, "5 is not smaller than 3" returns Nothing
+
+8. is :	   This keyword is used to test object identity, i.e to check if both the objects take same memory location or not.
+	   # using is to check object identity 
+	   # string is immutable( cannot be changed once alloted) 
+	   # hence occupy same memory location 
+	   print (''is'')   returns True
+
+	   # using is to check object identity 
+	   # dictionary is mutable( can be changed once alloted) 
+	   # hence occupy different memory location 
+           print ({} is {})  returns False
+
+9.global : This keyword is used to define a variable inside the function to be of a global scope.
+
+	   a=5
+	   def abc():
+	   	global a
+		a=10
+	   abc()
+	   print (a)
+
+10.non-local : 	This keyword works similar to the global, but rather than global, this keyword declares 
+		a variable to point to variable of outside enclosing function, in case of nested functions.
+
+		print ("Value of a using nonlocal is : ",end="") 
+		def outer(): 
+    			a = 5
+    			def inner(): 
+        			nonlocal a  
+        			a = 10
+    			inner() 
+    			print (a) 
+  
+		outer() 
+
+    
