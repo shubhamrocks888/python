@@ -1,4 +1,5 @@
-# is used for single line comment in Python
+#                       is used for single line comment in Python
+
 """ this is a comment """ is used for multi line comments
 
 '''Declared using Continuation Character (\):'''
@@ -22,8 +23,26 @@
 ##flag = 2; ropes = 3; pole = 4
 ######
 
-##2.              Print without newline in Python 3.x
-print("geeks", end =" ") 
-print("geeksforgeeks")
+##2.                Print without newline in Python 3.x
 
-print ("geeks","geeksforgeeks")
+'''Syntax: print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush)
+
+Parameters:
+value(s) : Any value, and as many as you like. Will be converted to string before printed
+sep=’separator’ : (Optional) Specify how to separate the objects, if there is more than one.Default :’ ‘
+end=’end’: (Optional) Specify what to print at the end.Default : ‘\n’
+file : (Optional) An object with a write method. Default :sys.stdout
+flush : (Optional) A Boolean, specifying if the output is flushed (True) or buffered (False). Default: False
+
+Returns: It returns output to the screen.'''
+
+print('G','F','G')              returns G F G
+print('G','F','G',sep='')       returns GFG
+
+##3.                Reversing the string and list
+
+x = "hello"
+y = [1,2,3,4]
+print (x[::-1])
+print (y[::-1])
+
