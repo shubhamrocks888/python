@@ -1,3 +1,8 @@
+l = list("hello")
+print (l)           ##Output : ['h', 'e', 'l', 'l', 'o']       
+
+
+
 ##                      Python List sort() Method
 '''The sort() method sorts the list ascending by default.
 You can also make a function to decide the sorting criteria(s).
