@@ -48,28 +48,7 @@ print (True + False + False)-----> 1
 	   # hence occupy different memory location 
            print ({} is {})  returns False
 
-9.global : This keyword is used to define a variable inside the function to be of a global scope.
 
-	   a=5
-	   def abc():
-	   	global a
-		a=10
-	   abc()
-	   print (a)
-
-10.non-local : 	This keyword works similar to the global, but rather than global, this keyword declares 
-		a variable to point to variable of outside enclosing function, in case of nested functions.
-
-		print ("Value of a using nonlocal is : ",end="") 
-		def outer(): 
-    			a = 5
-    			def inner(): 
-        			nonlocal a  
-        			a = 10
-    			inner() 
-    			print (a) 
-  
-		outer() 
 11.
 
 		How to check if a string is keyword?
