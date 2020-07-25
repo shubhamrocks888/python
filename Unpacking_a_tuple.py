@@ -65,3 +65,6 @@ z = (10, 100)
 
 print (result(*z))                  #Output: 1000
 
+
+
+
