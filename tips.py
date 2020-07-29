@@ -46,3 +46,7 @@ y = [1,2,3,4]
 print (x[::-1])
 print (y[::-1])
 
+##4.            Floor division directly
+print (5/2)                 returns 2.5
+print (5//2)                returns 2
+
