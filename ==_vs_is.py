@@ -46,3 +46,8 @@ else:
 '''Output of the fourth if condition is “False” because concatenation of two list is always produce a new list.'''
 
 
+list1 = [] 
+list2 = [] 
+
+print(id(list1))            ##Output: 139877155242696
+print(id(list2))            ##Output: 139877155253640
