@@ -39,6 +39,46 @@ Returns: It returns output to the screen.'''
 print('G','F','G')              returns G F G
 print('G','F','G',sep='')       returns GFG
 
+
+ 
+for i in range(1, 5): 
+	for j in range(i): 
+		print(i, end=' ') 
+	print()
+
+##Output:
+1 
+2 2 
+3 3 3 
+4 4 4 4
+
+for i in range(1, 5): 
+	for j in range(i): 
+		print(i, end=' ') 
+	print('\n')
+
+##Output:
+1 
+
+2 2 
+
+3 3 3 
+
+4 4 4 4 
+
+for i in range(1, 5): 
+	for j in range(i): 
+		print(i, end=' ') 
+	print(end='\n')
+
+##Output:
+1 
+2 2 
+3 3 3 
+4 4 4 4
+
+NOTE: print () and print (end='\n') both are same 
+
 ##3.                Reversing the string and list
 
 x = "hello"
