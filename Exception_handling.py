@@ -30,7 +30,16 @@ print(a)
 
 marks=1000
 try:
-    if marks/0:
+    marks/0
+    print ("Divided successully")
+except ZeroDivisionError:
+    print ("division not happpened")
+
+##              OR
+
+marks=1000
+try:
+    if marks/0:                                                             
         print ("Divided successully")
 except ZeroDivisionError:
     print ("division not happpened")
