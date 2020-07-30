@@ -51,3 +51,4 @@ list2 = []
 
 print(id(list1))            ##Output: 139877155242696
 print(id(list2))            ##Output: 139877155253640
+'''This shows list1 and list2 refers to different objects.'''
