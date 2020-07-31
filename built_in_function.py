@@ -58,3 +58,35 @@ print (round(5.76543))              #Output:6
 print (round(5.46543))              #Output:5
 print (round(5.76543,2))            #Output:5.77
 
+
+##              Python range() Function
+This returns a range object (a type of iterable).
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1
+(by default), and stops before a specified number.
+
+Syntax: round(number, digits)
+
+start	Optional. An integer number specifying at which position to start. Default is 0
+stop	Required. An integer number specifying at which position to stop (not included).
+step	Optional. An integer number specifying the incrementation. Default is 1
+
+print (range(5))                    #Output:range(0, 5)
+print (list(range(5)))              #Output:[0,1,2,3,4]
+for i in range(5):
+    print (i,end=" ")               #Output:0 1 2 3 4
+
+for i in range(3,10,2):
+    print(i,end=" ")                #Output:3 5 7 9
+
+
+##              Python abs() Function
+The abs() function returns the absolute value of the specified number.
+NOTE: It acts like a moduloud i.e, like |x|
+
+Syntax: abs(n)
+
+n	Required. A number
+
+print (abs(7.25))                   #Output:7.25
+print (abs(-7.25))                  #Output:7.25
+print  (abs(3+5j))                  #Output:5.830951894845301
