@@ -197,9 +197,20 @@ x = -1
 if x < 0:
   raise Exception("Sorry, no numbers below zero")
 
+##Output:
+'''Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\python\demo.py", line 39, in <module>
+    raise Exception("Sorry, no numbers below zero")
+Exception: Sorry, no numbers below zero'''
 
 ##Example:
 x = "hello"
 
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
+
+##Output:
+'''Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\python\demo.py", line 39, in <module>
+    raise TypeError("Only integers are allowed")
+TypeError: Only integers are allowed'''
