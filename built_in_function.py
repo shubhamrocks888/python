@@ -90,3 +90,26 @@ n	Required. A number
 print (abs(7.25))                   #Output:7.25
 print (abs(-7.25))                  #Output:7.25
 print  (abs(3+5j))                  #Output:5.830951894845301
+
+
+##              Python chr() Function
+The chr() function returns the character that represents the specified unicode.
+
+Syntax: chr(n)
+
+number	An integer representing a valid Unicode code point
+
+print (chr(65))                     #Output:A
+print (chr(97))                     #Output:a
+
+
+##              Python ord() Function
+The ord() function returns the number representing the unicode code of a specified character.
+
+Syntax: ord(character)
+
+character	String, any character
+
+print (ord('0'))                #Output:48
+print (ord('A'))                #Output:65
+print (ord('a'))                #Output:97
