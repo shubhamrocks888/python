@@ -52,3 +52,36 @@ list2 = []
 print(id(list1))            ##Output: 139877155242696
 print(id(list2))            ##Output: 139877155253640
 '''This shows list1 and list2 refers to different objects.'''
+
+
+##                                              PYTHON is OPERATOR
+1. Immutable data type : Integer ,string, tuple, bool
+2. Mutable data type : List,Set,Dictionary
+
+If x and y has mutable data type and both are representing same value,
+then ---> x is y return True  
+
+If x and y has immutable data type and both are representing same value,
+then ---> x is y return False
+
+Examples:
+x = 5;y=5
+print (x is y)                  ##Output: True
+
+x= 'abc';y='abc'
+print (x is y)                  ##Output: True
+
+x= ('abc',2);y=('abc',2)
+print (x is y)                  ##Output: True
+
+x = 1>0;y = 5>0
+print (x is y)                  ##Output: True
+
+x = {1,2,3};y = {1,2,3}
+print (x is y)                  ##Output:False
+
+x = [1,2,3];y = [1,2,3]
+print (x is y)                  ##Output: False
+
+x = {'a':1,'b':2};y ={'a':1,'b':2}
+print (x is y)                  ##Output: False
