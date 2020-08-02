@@ -1,3 +1,8 @@
+a=1,2,3
+print (a)               #Output : (1, 2, 3)
+print (type(a))         #Output : <class 'tuple'>
+
+
 #Creating an empty Tuple 
 Tuple1 = () 
 print (Tuple1)                  #Output : ()
