@@ -14,8 +14,10 @@ z = lambda a,b,c:a+b+c
 print(z(1,2,3))
 
 ##                                      Why Use Lambda Functions?
-'''The power of lambda is better shown when you use them as an anonymous function inside another function.
-Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number:'''
+''' The power of lambda is better shown when you use them as an anonymous
+    function inside another function.
+    Say you have a function definition that takes one argument, and that
+    argument will be multiplied with an unknown number:'''
 
 def myfunc(n):
     return lambda a:a*n
@@ -25,7 +27,8 @@ print(mydoubler(2))
 
 ##                                      MAP FUNCTION?
 
-'''2.map   :   The map() function executes a specified function for each item in a iterable. The item is sent to the function as a parameter.
+'''2.map   :   The map() function executes a specified function for each item in a iterable.
+               The item is sent to the function as a parameter.
 
 Syntax  :  map(function, iterables)
 
@@ -48,6 +51,16 @@ def my_funcc(a, b):
 
 x = map(my_funcc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
 print(list(x))
+
+l1 = [1,2,3,4]
+l2 = [5,6,7,8]
+print (list(map(lambda x,y:x*y,l1,l2)))                     ## Output: [5, 12, 21, 32]
+
+l1 = [1,2,3,4]
+l2 = [5,6,7,8,9,10]
+print (list(map(lambda x,y:x*y,l1,l2)))                     ## Output: [5, 12, 21, 32]
+
+
 
 ##                                      FILTER Function?
 
