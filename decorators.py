@@ -70,6 +70,41 @@ This is after function execution
 '''
 
 
+##Example
+def outer(fun):
+
+        def inner():
+                return "welcome to " + func()
+
+        return inner
+
+@outer
+def func():
+        return "club"
+
+print (func())
+## Output:RecursionError: maximum recursion depth exceeded
+
+'''Hence in inner function instead of func(),fun() should be used''' 
+
+##Correct way:
+
+def outer(fun):
+
+        def inner():
+                return "welcome to " + fun()
+
+        return inner
+
+@outer
+def func():
+        return "club"
+
+print (func())
+## Output: welcome to club
+
+
+
 ##                      What if a function returns something –
 
 def hello_decorator(func): 
@@ -91,7 +126,7 @@ def hello_decorator(func):
 @hello_decorator
 def sum_two_numbers(a, b): 
 	print("Inside the function") 
-	return a + b 
+	return a + b
 
 a, b = 1, 2
 
@@ -105,3 +140,27 @@ Inside the function
 after Execution
 Sum = 3
 '''
+
+##Another Example:
+
+def outer(fun):
+
+        print ("outer executed")
+
+        def inner(*args,**kwargs):
+                print ("inner executed")
+                fun()
+        return inner
+
+@outer
+def fun(*args,**kwargs):
+        print ("fun or func is executed")
+
+
+fun()
+# Output:
+outer executed
+inner executed
+fun or func is executed
+
+
