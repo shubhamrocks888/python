@@ -50,3 +50,59 @@ def fun(**kwargs):
 fun(x='1',y='2',z='3')
 ##Output: ('x', '1') ('y', '2') ('z', '3') 
 
+
+##                              RETURN MULTIPLE VALUES
+
+# A Python program to return multiple 
+# values from a method using tuple 
+
+# This function returns a tuple 
+def fun(): 
+	str = "geeksforgeeks"
+	x = 20
+	return str, x; # Return tuple, we could also 
+					# write (str, x) 
+
+# Driver code to test above method 
+str, x = fun() # Assign returned tuple 
+print(str) 
+print(x)
+
+##Output:
+geeksforgeeks
+20
+
+# A Python program to return multiple 
+# values from a method using list 
+
+# This function returns a list 
+def fun(): 
+	str = "geeksforgeeks"
+	x = 20
+	return [str, x]; 
+
+# Driver code to test above method 
+list = fun() 
+print(list) 
+
+##Output: ['geeksforgeeks', 20]
+
+
+# A Python program to return multiple 
+# values from a method using dictionary 
+
+# This function returns a dictionary 
+def fun(): 
+	d = dict(); 
+	d['str'] = "GeeksforGeeks"
+	d['x'] = 20
+	return d 
+
+# Driver code to test above method 
+d = fun() 
+print(d) 
+
+##Output: {'x': 20, 'str': 'GeeksforGeeks'}
+
+
+
