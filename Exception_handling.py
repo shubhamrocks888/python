@@ -58,11 +58,11 @@ try :
         b = a/(a-3) 
       
     # throws NameError if a >= 4 
-    print "Value of b = ", b 
+    print ("Value of b = ", b) 
   
 # note that braces () are necessary here for multiple exceptions 
 except(ZeroDivisionError, NameError): 
-    print "\nError Occurred and Handled"
+    print ("\nError Occurred and Handled")
 
 '''Output:
 Error Occurred and Handled
