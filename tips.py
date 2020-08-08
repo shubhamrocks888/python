@@ -79,6 +79,7 @@ for i in range(1, 5):
 
 NOTE: print () and print (end='\n') both are same 
 
+
 ##3.                Reversing the string and list
 
 x = "hello"
@@ -86,7 +87,9 @@ y = [1,2,3,4]
 print (x[::-1])
 print (y[::-1])
 
+
 ##4.            Floor division directly
 print (5/2)                 returns 2.5
 print (5//2)                returns 2
+
 
