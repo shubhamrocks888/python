@@ -89,7 +89,64 @@ print (y[::-1])
 
 
 ##4.            Floor division directly
+
 print (5/2)                 returns 2.5
 print (5//2)                returns 2
+
+
+##5.    Print The File Path Of Imported Modules.
+
+import os 
+import socket 
+
+print(os) 
+print(socket) 
+
+#Output:
+<module 'os' from 'C:\\Python\\lib\\os.py'>
+<module 'socket' from 'C:\\Python\\lib\\socket.py'>
+
+
+##6.     Use Of Enums In Python.
+
+x,y,z = range(3)
+print (x,y,z)                  
+#Output:0 1 2
+
+##7.    Find The Most Frequent Value In A List.
+
+test = [1, 2, 3, 4, 2, 2, 3, 1, 4, 4, 4] 
+print(max(set(test), key = test.count))
+#Output: 4
+
+
+##8.Check The Memory Usage Of An Object.
+
+import sys 
+x = 1
+print(sys.getsizeof(x)) 
+#Output: 14
+
+
+##9. Print string N times.
+n = 2
+a = "GeeksforGeeks"
+print(a * n)
+#Output: GeeksforGeeksGeeksforGeeks
+
+
+##10.   Checking if two words are anagrams
+
+from collections import Counter 
+def is_anagram(str1, str2): 
+	return Counter(str1) == Counter(str2) 
+
+# or without having to import anything 
+def is_anagram(str1, str2): 
+	return sorted(str1) == sorted(str2) 
+
+print(is_anagram('geek', 'eegk')) 
+print(is_anagram('geek', 'peek'))	 
+
 
 
