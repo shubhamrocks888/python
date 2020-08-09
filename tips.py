@@ -146,7 +146,58 @@ def is_anagram(str1, str2):
 	return sorted(str1) == sorted(str2) 
 
 print(is_anagram('geek', 'eegk')) 
-print(is_anagram('geek', 'peek'))	 
+print(is_anagram('geek', 'peek'))
+
+
+##11.   Transposing a Matrix
+
+l = [[1,2,3],[4,5,6],[7,8,9]]
+print (list(zip(*l)))
+#Output: [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+
+
+##12.   Store all three values of the list in 3 new variables
+l = [1,2,3]
+x,y,z = l
+print (x,y,z)
+#Output: 1 2 3
+
+
+##13.     Create a single string from all the elements in list above.
+a = ["Code", "mentor", "Python", "Developer"]
+print ("".join(a))
+#Output: CodementorPythonDeveloper
+
+
+##14
+l1 = ['a', 'b', 'c', 'd']
+l2 = ['p', 'q', 'r', 's']
+Write a Python code to print
+ap
+bq
+cr
+ds
+
+for i in zip(l1,l2):
+    print(i[0],i[1],sep="")
+'''OR'''
+for i,j in zip(l1,l2):
+        print (i,j,sep="")
+
+
+##15.   Print "codecodecodecode mentormentormentormentormentor" without using loops
+print ("code"*4 + " " + "mentor"*5)  
+##                '''OR'''
+print ("code"*4,"mentor"*5)  
+
+
+##16.
+a = [[1, 2], [3, 4], [5, 6]]
+Convert it to a single list without using any loops.
+Output:- [1, 2, 3, 4, 5, 6]
+
+import itertools 
+list(itertools.chain.from_iterable(a))
 
 
 
