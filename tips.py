@@ -1,3 +1,8 @@
+x = 08
+print (x)
+#Output:
+SyntaxError : leading zeros in decimal integer literals are not permitted
+
 #                       is used for single line comment in Python
 
 """ this is a comment """ is used for multi line comments
