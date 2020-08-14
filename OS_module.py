@@ -180,8 +180,24 @@ All parent directory
 # removed if they are empty 
 
 
+                            '''9. os.remove():'''
+To delete a file, you must import the OS module, and run its os.remove() function:
 
-                            '''9. os.rename():'''
+##Delete a File
+import os
+os.remove("demofile.txt")
+
+##Check if File exist:
+To avoid getting an error, you might want to check if the file exists before you try to delete it:
+
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
+
+  
+                            '''10. os.rename():'''
 os.rename() method in Python is used to rename a file or directory.
 This method renames a source file/ directory to specified destination file/directory.
 
@@ -203,7 +219,7 @@ os.rename('mon','non') or os.rename(r"C:\Users\dell\Desktop\mon",r"C:\Users\dell
 
 
 
-                        '''10. os.stat():'''
+                        '''11. os.stat():'''
 os.stat() method in Python performs stat() system call on the specified path.
 This method is used to get status of the specified path.
 
@@ -249,7 +265,7 @@ print (os.stat(path).st_size)       #Output:20480
 
 
 
-                                '''11. os.walk():'''
+                                '''12. os.walk():'''
 OS.walk() generate the file names in a directory tree by walking the tree either top-down or bottom-up.
 For each directory in the tree rooted at directory top (including top itself), it yields a 3-tuple (dirpath, dirnames, filenames).
 
