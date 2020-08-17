@@ -44,7 +44,7 @@ ll'''
 
 
 # a file named "geek", will be opened with the reading mode. 
-file = open('abc.txt', 'r')                                                        
+file = open('abc.txt','r')                                                        
 
 # This will print every line one by one in the file 
 for each in file:                                                   
@@ -106,6 +106,17 @@ print (f.readline())
 
 ##Output:
 fdlflsdf
+
+f = open('abc.txt')
+print (f.readline(1))
+
+##Output:
+f
+
+print (f.readline(2))
+##Output:
+fd
+
 
 f = open('abc.txt')
 print (f.readline())
