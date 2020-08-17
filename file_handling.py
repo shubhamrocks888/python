@@ -287,7 +287,15 @@ if os.path.exists("demofile.txt"):
 else:
   print("The file does not exist")
 
-  
+
+9.   '''DELETE A DATA FROM THE FILE '''
+
+## To truncate the file, you can open the file in append mode or write mode.
+
+with open("demo3.txt",'r+') as file:
+    file.seek(0)
+    file.truncate()
+
 
 
 
