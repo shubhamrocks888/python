@@ -141,7 +141,61 @@ print (f.mode)
 #Output: r
 
 
+9.          '''Python File readlines() Method'''
 
+The readlines() method returns a list containing each line in the file as a list item.
+Use the hint parameter to limit the number of lines returned.
+If the total number of bytes returned exceeds the specified number, no more lines are returned.
+
+Syntax : file.readlines()
+
+hint	Optional. If the number of bytes returned exceed the hint number, no more lines will be returned.
+        Default value is  -1, which means all lines will be returned.
+
+
+#Python program
+f = open("demofile.txt",'r')
+print (f.readlines())
+#Output: ['fdlflsdf\n', 'slvsvlv\n', 'ddlslf\n', 'dmfdlslfsdfdl\n', ',dll\n']
+
+print (f.readlines(-1))
+#Output: ['fdlflsdf\n', 'slvsvlv\n', 'ddlslf\n', 'dmfdlslfsdfdl\n', ',dll\n']
+
+print (f.readlines(0))
+#Output: ['fdlflsdf\n', 'slvsvlv\n', 'ddlslf\n', 'dmfdlslfsdfdl\n', ',dll\n']
+
+print (f.readlines(1))
+#Output: ['fdlflsdf\n']
+
+
+10.         '''Python File writelines() Method'''
+
+The writelines() method writes the items of a list to the file.
+Where the texts will be inserted depends on the file mode and stream position.
+"a":  The texts will be inserted at the current file stream position, default at the end of the file.
+"w": The file will be emptied before the texts will be inserted at the current file stream position, default 0.
+
+Syntax: file.writelines(list)
+
+list	The list of texts or byte objects that will be inserted.
+
+#Python program
+f = open("demofile3.txt", "a")
+f.writelines(["See you soon!", "Over and out."])
+f.close()
+
+#open and read the file after the appending:
+f = open("demofile3.txt", "r")
+print(f.read())
+
+#Output:
+See you soon!Over and out.
+
+f.writelines(["See you soon!\n", "Over and out."])
+print (f.read())
+#Output:
+See you soon!
+Over and out.
 
 
 
