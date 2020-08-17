@@ -36,3 +36,40 @@ with open('demo.txt','r') as x:
 #Output:
 ..elif dnoces a si siht dnA
 ...enil tsrif a si sihT
+
+
+##Example 2: Word to word reversing
+
+Input: 
+        Hello Geeks
+        for geeks!
+
+Output:
+         geeks! for
+         Geeks Hello
+
+
+# Open the file in write mode 
+f2 = open("output2.txt", "w") 
+
+
+# Open the input file again and get 
+# the content as list to a variable data 
+with open("file.txt", "r") as myfile: 
+	data = myfile.readlines()
+
+        #if last line of data doesnot end with '\n'
+	if data[-1][len(data[-1])-1]!='\n':
+            data[-1] = data[-1] + '\n'
+
+
+# We will just reverse the 
+# array using following code 
+data_2 = data[::-1] 
+
+# Now we will write the fully reverse 
+# list in the output2 file using 
+# following command 
+f2.writelines(data_2) 
+
+f2.close() 
