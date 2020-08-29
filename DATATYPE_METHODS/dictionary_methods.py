@@ -4,6 +4,9 @@
 # Creating a Dictionary 
 # with each item as a Pair 
 Dict = dict([(1, 'Geeks'), (2, 'For')])
+        'OR'
+Dict = dict(((1, 'Geeks'), (2, 'For')))
+
 print (Dict)            #Output : {1: 'Geeks', 2: 'For'}
 
 
