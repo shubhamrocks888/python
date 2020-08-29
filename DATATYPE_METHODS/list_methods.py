@@ -1,5 +1,19 @@
 l = list("hello")
-print (l)           ##Output : ['h', 'e', 'l', 'l', 'o']       
+print (l)           ##Output : ['h', 'e', 'l', 'l', 'o']
+
+# ALTER TO POP METHOD
+
+l = [1,2,3,4]
+# want to remove element at index 1
+del(l[1])
+
+print (l)
+
+#ALTER TO CLEAR LIST
+
+1. del l[:]
+
+2. l *=0
 
 
 
