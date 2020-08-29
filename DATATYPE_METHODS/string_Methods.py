@@ -140,7 +140,7 @@ The find() method returns -1 if the value is not found.
 The find() method is almost the same as the index() method, the only
 difference is that the index() method raises an exception if the value is not found. (See example below)
 
-Syntax :  string.count(value, start, end)
+Syntax :  string.find(value, start, end)
 
 value	Required. The value to search for
 start	Optional. Where to start the search. Default is 0
